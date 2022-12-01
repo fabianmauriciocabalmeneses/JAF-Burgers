@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <title>Order</title>
+</head>
+
+<body>
+
+    <main class="container mt-5">
+        <div class="title text-uppercase text-center">
+            <h1 class="">Order here!</h1>
+            <p>choose your food</p>
+        </div>
+
+        <div class="mainsection d-flex">
+            <div class="img mt-3 me-5 justify-content-flex-start">
+                <img class="rounded-5" src="../img/DeliveryFood.png" width="500px" height="550px" alt="DeliveryFood">
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <form class="row g-3 border border-3 rounded-5 border-warning bg-dark">
+                        <div class="col-md-12">
+                            <label for="inputName" class="form-label text-light">Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="JAF BURGER">
+                        </div>
+                        <!-- <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label text-light">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div> -->
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label text-light">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                     
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label text-light">Neighbor</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Manhattan">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label text-light">City</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option value="1">Bogotá</option>
+                                <option value="2">Medellin</option>
+                                <option value="3">Cali</option>
+                                <option value="4">Cartagena</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <p class="form-label text-light">choose your favorite food</p>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Dining Options</option>
+                                <option value="1">FOUR CHEES GRILIC BREAD</option>
+                                <option value="2">CAPERSE SALAD</option>
+                                <option value="3">BEEF BURGER</option>
+                                <option value="4">FOUR CHEES GRILIC BREAD</option>
+                                <option value="5">RASTAMI ROLL</option>
+                                <option value="6">PEACHY JALAPENO</option>
+                                <option value="7">SHIMP SCAMPI</option>
+                                <option value="8">FOUR CHEES GRILIC BREAD</option>
+                                <option value="9">CAPERSE SALAD</option>
+                              </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label text-light">Quantity</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input text-light" type="checkbox" id="gridCheck">
+                                <label class="form-check-label text-light" for="gridCheck">
+                                    Leave the order at the door
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-4">
+                            <button type="submit" class="btn btn-own">Orden Now!</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
