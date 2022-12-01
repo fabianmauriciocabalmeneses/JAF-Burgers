@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(235, 240, 243);
+    
+
+}
+.menubtn{
+   background-color: black;
+   margin: auto;
+   height: 80px;
+
+   
+}
+
+
+
+.menubtn li a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    
+   
+   
+}
+.menubtn li{
+    display: inline-block;
+      
+
+}
+.menubtn li a:hover{
+    background-color: rgb(79, 94, 94);
+}
+
+
+
+.container{
+   
+}
+
+
+
+  
+
+.Contact_form{   
+    text-align: center;
+    background-color: rgb(228, 195, 107);
+    margin: 50px 400px;
+    background-image: url(../img/restaurante.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 1200px;
+    
+   
+
+}
+.envio :hover{
+    width: 80px;
+    background-color: brown;
+
+}
+.boton{
+   color: rgb(17, 17, 20);
+}
+
+
+.menu{
+    display: block;   
+}
+
+.menu1{
+    padding: 80px;
+
+}
+
+aside{
+    display: inline-block;
+    width: 300px;
+    min-height: 400px;
+   
+    
+
+}
+.texto{
+    
+    font-size: 20px;
+    font-weight: bold;
+}
