@@ -88,6 +88,8 @@ body{
     text-align: center;
     font-size: 85px;
     padding: 20px;
+    margin: auto;
+    margin-top: 40px;
  
 }
 
@@ -148,6 +150,8 @@ body{
     display: flex;
     justify-content: space-around;
     max-width: 1400px;
+    margin: auto;
+    margin-top: 70px;
 }
 
 .divLogoFooter{
